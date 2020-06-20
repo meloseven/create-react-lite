@@ -33,6 +33,8 @@ program
         await renderPkgFile(projectPath, { libName });
         await installDeps(projectPath);
         console.log(chalk.green('create completed.'));
+        console.log()
+        console.log(`You can start by ${chalk.blue(`cd ${projectPath} && yarn start`)}`);
       } catch (e) {
         console.log(chalk.red('create error'));
         console.log(e);
