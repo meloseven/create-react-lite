@@ -1,0 +1,27 @@
+{
+  "exclude": ["./node_modules"],
+  "include": ["./typings", "./src"],
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict":true,
+    "declaration": true,
+    "declarationDir": "./types",
+    "jsx": "react",
+    "lib": ["ES2015","ES2016","ES2017","ES2018","ES2019","DOM"],
+    "target": "ES5",
+    "module": "ES6",
+    "sourceMap": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types",
+      /* 声明第三方定义库 */
+      "./node_modules/@youzan-types"
+    ],
+    "outDir": "./es",
+    "moduleResolution": "node",
+  }
+}
