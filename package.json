@@ -1,5 +1,5 @@
 {
-  "name": "@youzan/create-react-lite",
+  "name": "create-react-lite",
   "version": "0.0.4",
   "description": "创建简单的react脚手架",
   "main": "index.js",
